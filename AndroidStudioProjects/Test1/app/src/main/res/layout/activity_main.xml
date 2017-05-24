@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.sanidhya.test1.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Enter number = " />
+
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding= "20dp"
+        android:hint="Enter your number here : " />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Enter here "
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/facto"
+            android:text="FACTORIAL"
+            android:padding="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sum1"
+            android:text="Sum of AP"
+            android:padding="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:padding="20dp"/>
+
+    
+</LinearLayout>
